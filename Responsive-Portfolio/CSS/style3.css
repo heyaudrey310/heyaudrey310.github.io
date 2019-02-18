@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    text-align: left;
+}
+body {
+  background-image: url("../Images/crossline-lines.png");
+  padding: 0;
+  margin: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  
+  
+}
+h1  {
+    color: #ffffff;
+    float: left;
+    background-color: #4aaaa5;
+    width: 150px;
+    padding:20px;
+    font-size: 20px;
+    margin: left;
+    
+    
+
+}
+
+.header    {   
+  border: #0e0404;
+  background-color: #cccccc;
+  border: onset;
+  color: transparent;
+  font-family: 'Georgia', Times, "Times New Roman", serif;
+  height: 100px;
+  
+}
+
+.header-container    {
+    /* display: inline-block; */
+    color:  #cccccc;
+    background-color:#ffffff;
+    margin: auto;
+    height: 100px;
+    width: 960px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    
+
+
+}
+
+
+.links  {
+    justify-content: flex-end;
+    list-style-type: none;
+    float: right;
+    
+    background-color: transparent;
+    color: #cccccc;
+}
+
+.links li {
+  display: inline-block;
+  color: #4aaaa5;
+  padding: 20px;
+
+
+}
+
+img {
+    float: left;
+    padding: 20px;
+    justify-content: center;
+}
+.content-container   {
+    background-color: #ffffff;
+    max-width: 960px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    float: none;
+}
+
+footer  {
+    background-color: #666666;
+    color:  #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+}
+
+.img {
+    margin-right: 184px;
+    padding: 20 px 0;
+    position: absolute;
+    float: left;
+
+}
+
+
+#about-me {
+  color: #ffffff;
+  padding: 20px;
+  background-color: #4aaaa5;
+
+
+
+}
+
+.center {
+  margin: auto;
+  text-align: center;
+}
+.navbar-brand {
+  background-color: #4aaaa5;
+  color: #ffffff;
+  padding: 20px;
+
+}
+.work   {
+    position: relative;
+    float: left;
+    overflow: auto;
+    width: 274px;
+    margin: 20px 0 25px;
+
+}
+nav a{
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+}
+
+@media all and (max-width: 980px)   {
+  p   {
+  font-size: 1.25rem;
+  }
+  /* desktop-first */
+}
+@media all and (max-width:784px)    {
+  p   {
+      font-size: 1.5rem; 
+  }
+  /* tablet */
+}
+@media all and (max-width: 640px)
+  p   {
+      font-size: 1.5rem;
+  }
+  /* smartphone */
